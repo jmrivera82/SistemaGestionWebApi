@@ -19,6 +19,8 @@ namespace SistemaGestionWebApi
 
             builder.Services.AddScoped<UsuarioService>();
             builder.Services.AddScoped<ProductoService>();
+            builder.Services.AddScoped<ProductoVendidoService>();
+            builder.Services.AddScoped<VentaService>();
 
             builder.Services.AddDbContext<CoderContext>(options =>
 
