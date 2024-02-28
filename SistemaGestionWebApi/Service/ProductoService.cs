@@ -35,6 +35,46 @@ namespace SistemaGestionWebApi.Service
             return true;    
         }
 
+        public bool BorrarProductoPorId(int id)
+        {
+            Producto? producto = this.coderContext.Productos.Where(p=> p.Id == id).FirstOrDefault();    
+
+            if (producto is not null)
+            {
+                this.coderContext.Remove(producto);
+                this.coderContext.SaveChanges() ;
+                return true;
+            }
+
+            return false;   
+
+
+        }
+
+        public bool ActualizarProductoPorId(int id, ProductoDTO productoDTO)
+        {
+            Producto? producto = this.coderContext.Productos.Where(p => p.Id == id).FirstOrDefault();
+
+            if (producto is not null)
+            {
+                producto.PrecioVenta = productoDTO.PrecioVenta;
+                producto.Stock = productoDTO.Stock;
+                producto.Descripciones = productoDTO.Descripciones;
+
+                producto.IdUsuario = productoDTO.IdUsuario;
+ 
+                producto.Costo = productoDTO.Costo;
+
+                this.coderContext.Productos.Update(producto);
+                this.coderContext.SaveChanges();
+                return true;
+            }
+
+            return false;
+
+
+        }
+
 
     }
 }

@@ -48,5 +48,50 @@ namespace SistemaGestionWebApi.Controllers
         }
 
 
+        [HttpDelete("{id}")]
+
+        public IActionResult BorrarVenta(int id)
+        {
+            if (id > 0)
+            {
+                if (this.ventaService.BorrarVentaPorId(id))
+                {
+                    return base.Ok(new { mensaje = "venta borrada", status = 200 });
+                }
+
+                else
+                {
+                    return base.Conflict(new { mensaje = "No se pudo borrar la venta" });
+
+                }
+
+            }
+
+            return base.BadRequest(new { mensaje = "el id no puede ser borrado", status = 400 });
+
+        }
+
+        [HttpPut]
+        public IActionResult ActualizarVenta(int id, VentaDTO ventaDTO)
+        {
+            if (id > 0)
+            {
+                if (this.ventaService.ActualizarVentaPorId(id, ventaDTO))
+                {
+                    return base.Ok(new { mensaje = "venta actualizado", status = 200 });
+                }
+
+                else
+                {
+                    return base.Conflict(new { mensaje = "No se pudo actualizar la venta" });
+
+                }
+
+            }
+
+            return base.BadRequest(new { mensaje = "el id no puede ser actualizado", status = 400 });
+
+        }
+
     }
 }

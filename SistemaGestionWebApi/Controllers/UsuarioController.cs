@@ -48,5 +48,51 @@ namespace SistemaGestionWebApi.Controllers
         }
 
 
+        [HttpDelete("{id}")]
+
+        public IActionResult BorrarUsuario(int id)
+        {
+            if (id > 0)
+            {
+                if (this.usuarioService.BorrarUsuarioPorId(id))
+                {
+                    return base.Ok(new { mensaje = "usuario borrado", status = 200 });
+                }
+
+                else
+                {
+                    return base.Conflict(new { mensaje = "No se pudo borrar el usuario" });
+
+                }
+
+            }
+
+            return base.BadRequest(new { mensaje = "el id no puede ser borrado", status = 400 });
+
+        }
+
+        [HttpPut]
+        public IActionResult ActualizarUsuario(int id, UsuarioDTO usuarioDTO)
+        {
+            if (id > 0)
+            {
+                if (this.usuarioService.ActualizarUsuarioPorId(id, usuarioDTO))
+                {
+                    return base.Ok(new { mensaje = "usuario actualizado", status = 200 });
+                }
+
+                else
+                {
+                    return base.Conflict(new { mensaje = "No se pudo actualizar el usuario" });
+
+                }
+
+            }
+
+            return base.BadRequest(new { mensaje = "el id no puede ser actualizado", status = 400 });
+
+        }
+
+
     }
 }

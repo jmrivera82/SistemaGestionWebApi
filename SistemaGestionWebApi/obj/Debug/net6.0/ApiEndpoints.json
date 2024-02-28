@@ -82,6 +82,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SistemaGestionWebApi.Controllers.ProductoController",
+    "Method": "BorrarProducto",
+    "RelativePath": "api/Producto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SistemaGestionWebApi.Controllers.ProductoVendidoController",
     "Method": "ObtenerListadoDeProductosVendidos",
     "RelativePath": "api/ProductoVendido",
@@ -112,6 +128,22 @@
       {
         "Name": "productoVendido",
         "Type": "SistemaGestionWebApi.DTOs.ProductoVendidoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.ProductoVendidoController",
+    "Method": "BorrarProductoVendido",
+    "RelativePath": "api/ProductoVendido/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -154,6 +186,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SistemaGestionWebApi.Controllers.UsuarioController",
+    "Method": "BorrarUsuario",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SistemaGestionWebApi.Controllers.VentaController",
     "Method": "ObtenerListadoDeVentas",
     "RelativePath": "api/Venta",
@@ -184,6 +232,22 @@
       {
         "Name": "venta",
         "Type": "SistemaGestionWebApi.DTOs.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.VentaController",
+    "Method": "BorrarVenta",
+    "RelativePath": "api/Venta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

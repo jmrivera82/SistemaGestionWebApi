@@ -33,5 +33,45 @@ namespace SistemaGestionWebApi.Service
             this.coderContext.SaveChanges();
             return true;
         }
+
+        public bool BorrarVentaPorId(int id)
+        {
+            Ventum? venta = this.coderContext.Venta.Where(p => p.Id == id).FirstOrDefault();
+
+            if (venta is not null)
+            {
+                this.coderContext.Remove(venta);
+                this.coderContext.SaveChanges();
+                return true;
+            }
+
+            return false;
+
+
+        }
+
+        public bool ActualizarVentaPorId(int id, VentaDTO ventaDTO)
+        {
+            Ventum? venta = this.coderContext.Venta.Where(p => p.Id == id).FirstOrDefault();
+
+            if (venta is not null)
+            {
+                venta.Comentarios = ventaDTO.Comentarios;
+                venta.Id = ventaDTO.Id;
+                venta.IdUsuario = ventaDTO.IdUsuario;
+
+                this.coderContext.Venta.Update(venta);
+                this.coderContext.SaveChanges();
+                return true;
+            }
+
+            return false;
+
+
+        }
+
+
+
+
     }
 }

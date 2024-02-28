@@ -33,5 +33,45 @@ namespace SistemaGestionWebApi.Service
             this.coderContext.SaveChanges();
             return true;
         }
+
+
+        public bool BorrarProductoVendidoPorId(int id)
+        {
+            ProductoVendido? productoVendido = this.coderContext.ProductoVendidos.Where(p => p.Id == id).FirstOrDefault();
+
+            if (productoVendido is not null)
+            {
+                this.coderContext.Remove(productoVendido);
+                this.coderContext.SaveChanges();
+                return true;
+            }
+
+            return false;
+
+
+        }
+
+        public bool ActualizarProductoVendidoPorId(int id, ProductoVendidoDTO productoVendidoDTO)
+        {
+            ProductoVendido? productoVendido = this.coderContext.ProductoVendidos.Where(p => p.Id == id).FirstOrDefault();
+
+            if (productoVendidoDTO is not null)
+            {
+                productoVendidoDTO.Stock = productoVendidoDTO.Stock;
+                productoVendidoDTO.Id = productoVendidoDTO.Id;
+                productoVendidoDTO.IdProducto = productoVendidoDTO.IdProducto;
+                productoVendidoDTO.IdVenta = productoVendidoDTO.IdVenta;
+
+
+                this.coderContext.ProductoVendidos.Update(productoVendido);
+                this.coderContext.SaveChanges();
+                return true;
+            }
+
+            return false;
+
+
+        }
+
     }
 }
