@@ -1,0 +1,192 @@
+[
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.NombreController",
+    "Method": "ObtenerListadoDeNombres",
+    "RelativePath": "api/Nombre/Listado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.NombreController",
+    "Method": "ObtenerNombrePorId",
+    "RelativePath": "api/Nombre/Listado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.ProductoController",
+    "Method": "ObtenerListadoDeProductos",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SistemaGestionWebApi.Models.Producto, SistemaGestionWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.ProductoController",
+    "Method": "AgregarUnNuevoProducto",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "SistemaGestionWebApi.DTOs.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.ProductoVendidoController",
+    "Method": "ObtenerListadoDeProductosVendidos",
+    "RelativePath": "api/ProductoVendido",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SistemaGestionWebApi.Models.ProductoVendido, SistemaGestionWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.ProductoVendidoController",
+    "Method": "AgregarUnNuevoProductoVendido",
+    "RelativePath": "api/ProductoVendido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoVendido",
+        "Type": "SistemaGestionWebApi.DTOs.ProductoVendidoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.UsuarioController",
+    "Method": "ObtenerListadoDeUsuarios",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SistemaGestionWebApi.Models.Usuario, SistemaGestionWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.UsuarioController",
+    "Method": "AgregarUnNuevoUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "SistemaGestionWebApi.DTOs.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.VentaController",
+    "Method": "ObtenerListadoDeVentas",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SistemaGestionWebApi.Models.Ventum, SistemaGestionWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaGestionWebApi.Controllers.VentaController",
+    "Method": "AgregarUnaNuevaVenta",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venta",
+        "Type": "SistemaGestionWebApi.DTOs.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

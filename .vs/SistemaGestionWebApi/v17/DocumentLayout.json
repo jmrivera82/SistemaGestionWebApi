@@ -1,0 +1,408 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\controllers\\productovendidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\controllers\\productovendidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\service\\productovendidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\service\\productovendidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\service\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\service\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\mapper\\productovendidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\mapper\\productovendidomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\dtos\\productovendidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\dtos\\productovendidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\mapper\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\mapper\\productomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\models\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\models\\productovendido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\service\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\service\\ventaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\mapper\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\mapper\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\mapper\\ventamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\mapper\\ventamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\database\\codercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\database\\codercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\sistemagestionwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\sistemagestionwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|c:\\users\\jose\\desktop\\coderhouse\\csharp\\sistemagestionwebapi\\sistemagestionwebapi\\controllers\\nombrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09DFF8B6-0AE5-4385-9D6A-DF7A311D4ACE}|SistemaGestionWebApi\\SistemaGestionWebApi.csproj|solutionrelative:sistemagestionwebapi\\controllers\\nombrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductoVendidoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\ProductoVendidoMapper.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Mapper\\ProductoVendidoMapper.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\ProductoVendidoMapper.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Mapper\\ProductoVendidoMapper.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:53:08.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoVendidoService.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\ProductoVendidoService.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Service\\ProductoVendidoService.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\ProductoVendidoService.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Service\\ProductoVendidoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\ProductoService.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Service\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\ProductoService.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Service\\ProductoService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Service\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Service\\UsuarioService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoVendidoController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\ProductoVendidoController.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Controllers\\ProductoVendidoController.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\ProductoVendidoController.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Controllers\\ProductoVendidoController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA9wDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:49:52.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoVendidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\ProductoVendidoDTO.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\DTOs\\ProductoVendidoDTO.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\ProductoVendidoDTO.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\DTOs\\ProductoVendidoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:51:31.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Controllers\\VentaController.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Controllers\\VentaController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAmwCsAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductoVendido.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Models\\ProductoVendido.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Models\\ProductoVendido.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Models\\ProductoVendido.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Models\\ProductoVendido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAewAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:07:10.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\ProductoMapper.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Mapper\\ProductoMapper.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\ProductoMapper.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Mapper\\ProductoMapper.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T03:31:49.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\UsuarioMapper.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Mapper\\UsuarioMapper.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\UsuarioMapper.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Mapper\\UsuarioMapper.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:14:25.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\DTOs\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\ProductoDTO.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\DTOs\\ProductoDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T02:24:12.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VentaMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\VentaMapper.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Mapper\\VentaMapper.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Mapper\\VentaMapper.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Mapper\\VentaMapper.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:31:44.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VentaService.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\VentaService.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Service\\VentaService.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Service\\VentaService.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Service\\VentaService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAcwB8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VentaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\VentaDTO.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\DTOs\\VentaDTO.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\VentaDTO.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\DTOs\\VentaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:30:26.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\DTOs\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\DTOs\\UsuarioDTO.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\DTOs\\UsuarioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:12:27.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SistemaGestionWebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\SistemaGestionWebApi.csproj",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\SistemaGestionWebApi.csproj",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\SistemaGestionWebApi.csproj",
+              "RelativeToolTip": "SistemaGestionWebApi\\SistemaGestionWebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-28T02:03:24.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Models\\Producto.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Models\\Producto.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T02:55:48.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Models\\Usuario.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T04:06:50.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoderContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Database\\CoderContext.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Database\\CoderContext.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Database\\CoderContext.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Database\\CoderContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAewCwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Program.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NombreController.cs",
+              "DocumentMoniker": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\NombreController.cs",
+              "RelativeDocumentMoniker": "SistemaGestionWebApi\\Controllers\\NombreController.cs",
+              "ToolTip": "C:\\Users\\Jose\\Desktop\\Coderhouse\\csharp\\SistemaGestionWebApi\\SistemaGestionWebApi\\Controllers\\NombreController.cs",
+              "RelativeToolTip": "SistemaGestionWebApi\\Controllers\\NombreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T01:41:28.784Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
